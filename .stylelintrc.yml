@@ -1,0 +1,20 @@
+extends:
+  - stylelint-config-recommended
+  - stylelint-config-recess-order
+  - stylelint-config-prettier
+rules:
+  at-rule-no-unknown:
+    - true
+    - ignoreAtRules:
+        - apply
+        - layer
+        - screen
+        - tailwind
+  font-family-no-missing-generic-family-keyword: null
+  function-no-unknown:
+    - true
+    - ignoreFunctions:
+        - theme
+  no-descending-specificity: null
+ignoreFiles:
+  - webpack.mix.js

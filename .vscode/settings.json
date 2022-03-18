@@ -1,0 +1,13 @@
+{
+  "css.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.css": "scss"
+  },
+  "files.exclude": {
+    "package-lock.json": true,
+    "node_modules/": true,
+  },
+  "scss.validate": false
+}

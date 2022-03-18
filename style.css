@@ -1,0 +1,16 @@
+:root {
+  --ct-padding: theme("spacing.4");
+  --ct-max: theme("screens.min-md");
+
+  @screen min-xs {
+    --ct-padding: theme("spacing.5");
+  }
+
+  @screen min-sm {
+    --ct-padding: theme("spacing.10");
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
